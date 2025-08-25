@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aabe6c39-4ff0-43aa-a520-f2f80d62e42e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/resumereader.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="aabe6c39-4ff0-43aa-a520-f2f80d62e42e" name="Changes" comment="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills">
+      <change afterPath="$PROJECT_DIR$/ResumeScannerwithEntityruler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Anjal-stha"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Anjal-stha/Resume-Scanner.git",
+    "accountId": "fbd826ef-3090-4d29-acf8-2fd0020a1356"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -38,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.ResumeScannerwithEntityruler.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -60,6 +69,19 @@
       <option name="presentableId" value="Default" />
       <updated>1756144872284</updated>
     </task>
+    <task id="LOCAL-00001" summary="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills">
+      <option name="closed" value="true" />
+      <created>1756147738267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756147738267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills" />
+    <option name="LAST_COMMIT_MESSAGE" value="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills" />
   </component>
 </project>
