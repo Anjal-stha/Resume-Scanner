@@ -63,12 +63,21 @@ def extract_education(text):
     education = [line.strip() for line in lines if any(word in line for word in education_keywords)]
     return education
 
+
+def extract_work(text):
+    work_keyword = ["Intern", "Engineer", "Developer", "Manager","API","backend"]
+    lines = text.split("\n")
+    work = [line.strip() for line in lines if any(word in line for word in work_keyword)]
+    return work
+
+
 extracted_data = {
     "name": extract_name(doc),
     "Email": extract_email(resume_text),
     "Phone_Number": extract_phone_no(resume_text),
     "Skills": extract_skill(skills_list),
-    "Education": extract_education(resume_text)
+    "Education": extract_education(resume_text),
+    "Work_exp":extract_work(resume_text)
 }
 
 for key,value in extracted_data.items():

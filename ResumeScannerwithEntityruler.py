@@ -43,6 +43,7 @@ patterns = [
     {"label": "EDUCATION", "pattern": "M.Sc"},
     {"label": "EDUCATION", "pattern": "University"},
     {"label": "EDUCATION", "pattern": "College"},
+    {"label": "EDUCATION", "pattern": "School"},
 
     # Work Experience (keywords)
     {"label": "WORK_EXP", "pattern": "Software Engineer"},
@@ -81,6 +82,7 @@ def prase_resume(text):
     email = extract_email(text)
     phone_number = extract_phone_no(text)
     list_of_exp = ["intern", "engineer", "developer", "manager"]
+    list_of_education = ["bachelor","master","phd","b.sc","m.sc", "university","college", "school"]
 
     data = {"Name": name,
         "Email": email,
@@ -106,9 +108,20 @@ def prase_resume(text):
 
     lines = text.split("\n")
 
+    experience_lines = []
+    education_lins = []
+    lines = text.split("\n")
     for line in lines:
-        if any(word in line.lower() for word in list_of_exp):
-            data["Work_Experience"].append(line.strip())
+        line_lower = line.lower()
+        if any(keyword in line_lower for keyword in list_of_exp):
+            experience_lines.append(line.strip())
+
+        if any(keyword in line_lower for keyword in list_of_education):
+            education_lins.append(line.strip())
+    data["Work_Experience"] = experience_lines
+    data["Education"] = education_lins
+
+
 
     data["Skills"] = list(set(data["Skills"]))
     data["Education"] = list(set(data["Education"]))
