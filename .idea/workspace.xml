@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aabe6c39-4ff0-43aa-a520-f2f80d62e42e" name="Changes" comment="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills">
-      <change afterPath="$PROJECT_DIR$/ResumeScannerwithEntityruler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeScannerwithEntityruler.py" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeScannerwithEntityruler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,9 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,10 +80,51 @@
       <option name="project" value="LOCAL" />
       <updated>1756147738267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills">
+      <option name="closed" value="true" />
+      <created>1756153343801</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756153343801</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills">
+      <option name="closed" value="true" />
+      <created>1756153359224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756153359224</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills">
+      <option name="closed" value="true" />
+      <created>1756153472214</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756153472214</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills">
+      <option name="closed" value="true" />
+      <created>1756153487892</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756153487892</updated>
+    </task>
+    <task id="LOCAL-00006" summary="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills">
+      <option name="closed" value="true" />
+      <created>1756153495891</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756153495891</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="this is the new python file where i used entityruler to do the same things i did in main.py the only difference is that i used spacy more here" />
     <MESSAGE value="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills" />
     <option name="LAST_COMMIT_MESSAGE" value="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills" />
   </component>

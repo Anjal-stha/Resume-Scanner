@@ -6,7 +6,8 @@ nlp = spacy.load("en_core_web_sm")
 
 resume_text = """
 
-JJohn Doe
+John Doe
+
 Email: john.doe@example.com
 Phone: +1 9876543210
 
@@ -74,36 +75,54 @@ def extract_email(text):
     match = re.search(email_pattern,text)
     return match.group(0) if match else None
 
-def prase_resume():
+def prase_resume(text):
+    doc = nlp(text)
     name = extract_name(doc)
-    email = extract_email(resume_text)
-    phone_number = extract_phone_no(resume_text)
+    email = extract_email(text)
+    phone_number = extract_phone_no(text)
+    list_of_exp = ["intern", "engineer", "developer", "manager"]
 
-    skills = []
-    education = []
-    work_exp = []
-
-    for ent in doc.ents:
-        if ent.label_ == "SKILL":
-            skills.append(ent.text)
-
-        if ent.label_ == "EDUCATION":
-            education.append(ent.text)
-
-        if ent.label_ == "WORK_EXP":
-            work_exp.append(ent.text)
-
-    return({
-        "Name": name,
+    data = {"Name": name,
         "Email": email,
         "Phone_No": phone_number,
-        "Skills": list(set(skills)),
-        "Education": list(set(education)),
-        "Work Experience": list(set(work_exp))
-    })
+        "Skills": [],
+        "Education": [],
+        "Work_Experience": []
+
+    }
 
 
-print(prase_resume())
+
+    for ent in doc.ents:
+
+        if ent.label_ == "SKILL":
+            data["Skills"].append(ent.text)
+
+        if ent.label_ == "EDUCATION":
+            data["Education"].append(ent.text)
+
+        if ent.label_ == "WORK_EXP":
+            data["Work_Experience"].append(ent.text)
+
+    lines = text.split("\n")
+
+    for line in lines:
+        if any(word in line.lower() for word in list_of_exp):
+            data["Work_Experience"].append(line.strip())
+
+    data["Skills"] = list(set(data["Skills"]))
+    data["Education"] = list(set(data["Education"]))
+    data["Work_Experience"] = list(set(data["Work_Experience"]))
+
+
+
+#    print(f" Name: {name}\n Email: {email}\n Phone number: {phone_number}\n Skills: {list(set(skills))}\n Education: {list(set(education))}\n Work Experience: {list(set(work_exp))}")
+
+    return(data)
+
+
+for key, value in prase_resume(resume_text).items():
+    print(f"{key}:{value}")
 
 
 
