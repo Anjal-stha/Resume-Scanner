@@ -1,0 +1,23 @@
+[
+    {"label": "SKILL", "pattern": "Python"},
+    {"label": "SKILL", "pattern": "Java"},
+    {"label": "SKILL", "pattern": "C++"},
+    {"label": "SKILL", "pattern": "SQL"},
+    {"label": "SKILL", "pattern": "Machine Learning"},
+    {"label": "SKILL", "pattern": "Deep Learning"},
+    {"label": "SKILL", "pattern": "NLP"},
+
+    {"label": "EDUCATION", "pattern": "Bachelor"},
+    {"label": "EDUCATION", "pattern": "Master"},
+    {"label": "EDUCATION", "pattern": "B.Sc"},
+    {"label": "EDUCATION", "pattern": "M.Sc"},
+    {"label": "EDUCATION", "pattern": "PhD"},
+    {"label": "EDUCATION", "pattern": "University"},
+    {"label": "EDUCATION", "pattern": "College"},
+
+    {"label": "JOB_TITLE", "pattern": "Software Development Intern"},
+    {"label": "JOB_TITLE", "pattern": "Data Scientist"},
+    {"label": "JOB_TITLE", "pattern": "Machine Learning Engineer"},
+    {"label": "JOB_TITLE", "pattern": "Backend Developer"},
+    {"label": "JOB_TITLE", "pattern": "Frontend Developer"}
+]

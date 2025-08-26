@@ -1,3 +1,5 @@
+import json
+
 import spacy
 import re
 from spacy.pipeline import EntityRuler
@@ -26,33 +28,9 @@ Intern at DEF Ltd (2018)
 
 doc = nlp(resume_text)
 
-patterns = [
-    # Skills
-    {"label": "SKILL", "pattern": "Python"},
-    {"label": "SKILL", "pattern": "Java"},
-    {"label": "SKILL", "pattern": "C++"},
-    {"label": "SKILL", "pattern": "Machine Learning"},
-    {"label": "SKILL", "pattern": "Deep Learning"},
-    {"label": "SKILL", "pattern": "SQL"},
+with open("patterns.json","r") as f:
+    patterns = json.load(f)
 
-    # Education / Qualifications
-    {"label": "EDUCATION", "pattern": "Bachelor"},
-    {"label": "EDUCATION", "pattern": "Master"},
-    {"label": "EDUCATION", "pattern": "PhD"},
-    {"label": "EDUCATION", "pattern": "B.Sc"},
-    {"label": "EDUCATION", "pattern": "M.Sc"},
-    {"label": "EDUCATION", "pattern": "University"},
-    {"label": "EDUCATION", "pattern": "College"},
-    {"label": "EDUCATION", "pattern": "School"},
-
-    # Work Experience (keywords)
-    {"label": "WORK_EXP", "pattern": "Software Engineer"},
-    {"label": "WORK_EXP", "pattern": "Data Scientist"},
-    {"label": "WORK_EXP", "pattern": "Intern"},
-    {"label": "WORK_EXP", "pattern": "Developer"},
-
-
-]
 
 ruler = nlp.add_pipe("entity_ruler", before="ner")
 ruler.add_patterns(patterns)
