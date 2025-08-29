@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aabe6c39-4ff0-43aa-a520-f2f80d62e42e" name="Changes" comment="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResumeScannerwithEntityruler.py" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeScannerwithEntityruler.py" afterDir="false" />
-    </list>
+    <list default="true" id="aabe6c39-4ff0-43aa-a520-f2f80d62e42e" name="Changes" comment="CREATED a resume scanner program where any one can add the resume text details and it helps you to extract usefull inofrmation like your name, email, phone number, your education, and skills" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,21 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Anjal-stha"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Anjal-stha&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Anjal-stha/Resume-Scanner.git",
-    "accountId": "fbd826ef-3090-4d29-acf8-2fd0020a1356"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Anjal-stha/Resume-Scanner.git&quot;,
+    &quot;accountId&quot;: &quot;fbd826ef-3090-4d29-acf8-2fd0020a1356&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="31n19VtMgWCbMRHchXD6UlBsjIO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.ResumeScannerWithExternalFile.executor": "Run",
     "Python.ResumeScannerwithEntityruler.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
